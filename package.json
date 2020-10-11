@@ -1,0 +1,39 @@
+{
+  "name": "uwu-ui",
+  "version": "0.0.0",
+  "description": "uwu-ui",
+  "repository": "https://github.com/uwu-ui/uwu-ui",
+  "author": "Jusung Hwang <hbh2692@naver.com> (https://hellojs.dev)",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean:lerna": "lerna clean",
+    "clean:root": "rimraf node_modules",
+    "clean": "npm-run-all clean:lerna clean:root",
+    "lint": "lerna run lint",
+    "lint:fix": "lerna run lint:fix",
+    "build:themes": "yarn themes build",
+    "build:react": "yarn react build",
+    "build": "npm-run-all build:themes build:react",
+    "react": "yarn workspace @uwu-ui/react",
+    "themes": "yarn workspace @uwu-ui/themes",
+    "release": "lerna publish",
+    "prerelease": "yarn build"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/webpack",
+      "**/webpack/**"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "rimraf": "^3.0.2"
+  }
+}

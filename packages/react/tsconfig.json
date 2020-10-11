@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "paths": {
+      "@uwu-ui/components": ["./src/index.ts"],
+      "@uwu-ui/components/*": ["./src/*"]
+    }
+  },
+  "include": ["src", ".storybook/preview.tsx", "stories/*.tsx"],
+  "exclude": ["node_modules"]
+}

@@ -2,9 +2,8 @@
   "$schema": "https://unpkg.com/@changesets/config@1.4.0/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "linked": ["themes", "react"],
+  "linked": [["@uwu-ui/themes", "@uwu-ui/react"]],
   "access": "public",
   "baseBranch": "main",
-  "updateInternalDependencies": "patch",
-  "ignore": ["eslint-config"]
+  "updateInternalDependencies": "patch"
 }

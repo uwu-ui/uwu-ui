@@ -1,6 +1,6 @@
 {
   "name": "@uwu-ui/themes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Jusung Hwang <hbh2692@naver.com> (nabigraphics)",
   "homepage": "https://github.com/uwu-ui/uwu-ui#readme",
   "license": "MIT",
@@ -8,9 +8,7 @@
   "module": "dist/esm/",
   "types": "dist/types/index.d.ts",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uwu-ui/uwu-ui.git"

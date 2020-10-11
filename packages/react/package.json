@@ -1,6 +1,6 @@
 {
   "name": "@uwu-ui/react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "keywords": [],
   "author": "Jusung Hwang <hbh2692@naver.com> (nabigraphics)",
   "license": "MIT",
@@ -8,9 +8,7 @@
   "module": "dist/esm/",
   "types": "dist/index.d.ts",
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uwu-ui/uwu-ui.git"
@@ -30,14 +28,14 @@
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
-    "@uwu-ui/themes": "0.0.0",
+    "@uwu-ui/themes": "0.0.1",
     "emotion-theming": "^10.0.27",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1"
   },
   "dependencies": {
-    "@uwu-ui/themes": "0.0.0"
+    "@uwu-ui/themes": "0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
